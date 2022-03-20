@@ -26,7 +26,7 @@ body {
 }
 
 .header nav {
-    padding-top: 15px;
+    padding-top: 10px;
     color: #DCC9B6;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
@@ -36,16 +36,73 @@ body {
 .header a {
    display: inline-block;
    margin: 5px;
+   color: #DCC9B6;
+}
+.main {
+    margin-top: 20px;
 }
 
-.header a {
-    color: #DCC9B6;
+.main div  {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+}
+    /*padding: 10px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}*/
+
+#about-me,
+#work,
+#resume,
+#contact-me {
+    display:inline-block;
+    border-right: 5px #727D71 solid;
+    margin-right: 25px;
+    padding: 5px ;
+    text-align:right;
+    font-size: 35px;
+    color: #727D71;
+    width: 20%;
 }
 
-.main section {
+#concact-me {
+
+ }
+
+
+ @media screen and (max-width: 992px) {
+     .header h1 {
+         font-size: 45px;
+     }
+     #links{
+         font-size: 25px;
+     } }
+  
+  @media screen and (max-width: 768px) {
+    .header h1 {
+      font-size: 25px;
+    }
+    #links {
+        font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+   
+    .header h1 {
+       font-size: 15px;
+    }
+    #links{
+        font-size:10px;
+      }
+  }
+
+
+/*.main section {
     display: flex;
     flex-direction: row;
     max-height: auto;
+    
 }
 
 section h1 {
