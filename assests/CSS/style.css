@@ -44,12 +44,9 @@ body {
 
 .main div  {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: white;
-}
-    /*padding: 10px;
-    margin: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;}*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 #about-me,
 #work,
@@ -63,6 +60,7 @@ body {
     font-size: 35px;
     color: #727D71;
     width: 30%;
+    margin: 10px 25px
 }
 
 #contnent {
