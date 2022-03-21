@@ -44,13 +44,12 @@ body {
 
 .main div  {
     display:flex;
-    justify-content: space-between;
+    width:100%}
+    /*justify-content: space-between;
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
-    
-}
-    
+}   */
 
 #about-me,
 #work,
@@ -63,25 +62,44 @@ body {
     text-align:right;
     font-size: 35px;
     color: #727D71;
-    width: 30%;
-    margin: 10px 25px
+    width: 20%;
+    margin-bottom: 45px;
 }
+
+#content {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+ }
 
 #mypic {
-    height: 15%;
-    width: 15%;
+    height: 100%;
+    width: 30%;
 }
 
-#contnent {
-    width: 50%;
+.project-1,
+.project-2,
+.project-3 {
+    border: solid 3px  #727D71;
+    padding: 20px;
+    background: -webkit-linear-gradient( #A39171, #6D4C3D);
+    border-radius: 15px;
+    text-align: center;
+    color:#DCC9B6;
 
- }
+}
 
- #resume {
-     height: 20%;
-     width: 25%
-     
- }
+.project-1:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
 
 
  @media screen and (max-width: 992px) {
