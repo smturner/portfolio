@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+
 body {
     background-color: #DCC9B6
 }
@@ -60,28 +61,32 @@ body {
     margin-right: 25px;
     padding: 5px ;
     text-align:right;
-    font-size: 35px;
+    font-size: 40px;
     color: #727D71;
     width: 20%;
     margin-bottom: 45px;
 }
 
-#content {
+.content {
     display:flex;
-    justify-content: space-between;
-    background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 70%;
+    padding: 25px;
+    font-size: 25px;
+    color:#6D4C3D;
  }
+ 
 
 #mypic {
     height: 100%;
     width: 30%;
+    padding: 15px;
 }
 
-.project-1,
-.project-2,
-.project-3 {
+#project-1,
+#project-2,
+#project-3 {
+    display: inline;
     border: solid 3px  #727D71;
     padding: 20px;
     background: -webkit-linear-gradient( #A39171, #6D4C3D);
@@ -91,7 +96,7 @@ body {
 
 }
 
-.project-1:hover {
+#project-1:hover {
     position:relative;
     top:-25px;
     left:-35px;
