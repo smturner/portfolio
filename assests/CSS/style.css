@@ -4,23 +4,28 @@
     margin: 0;
 }
 
-
+:root {
+    --coffee: #6D4C3D;
+    --grullo: #A39171;
+    --almond: #DCC9B6;
+    --xanadu: #727D71;
+}
 body {
-    background-color: #DCC9B6
+    background-color: var(--almond);
 }
 
 .header {
    padding: 20px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   background-color:#727D71; 
-   color: #DCC9B6;
+   background-color:var(--xanadu); 
+   color: var(--almond);
 }
 
 .header h1 {
     display: inline-block;
     font-size: 45px;
-    background-color: #DCC9B6;
-    color: #6D4C3D;
+    background-color: var(--almond);
+    color: var(--coffee);
     padding-left: 70px;
     padding-right: 10px;
     margin-left: -20px;
@@ -28,7 +33,7 @@ body {
 
 .header nav {
     padding-top: 10px;
-    color: #DCC9B6;
+    color: var(--almond);
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
     font-size: 25px;
@@ -37,7 +42,7 @@ body {
 .header a {
    display: inline-block;
    margin: 5px;
-   color: #DCC9B6;
+   color: var(--almond);
 }
 .main {
     margin-top: 20px;
@@ -57,12 +62,12 @@ body {
 #resume,
 #contact-me {
     display:inline-block;
-    border-right: 5px #727D71 solid;
+    border-right: 5px var(--xanadu) solid;
     margin-right: 25px;
     padding: 5px ;
     text-align:right;
     font-size: 40px;
-    color: #727D71;
+    color: var(--xanadu);
     width: 20%;
     margin-bottom: 45px;
 }
@@ -73,7 +78,7 @@ body {
     width: 70%;
     padding: 25px;
     font-size: 25px;
-    color:#6D4C3D;
+    color:var(--coffee);
  }
  
 
@@ -87,12 +92,12 @@ body {
 #project-2,
 #project-3 {
     display: inline;
-    border: solid 3px  #727D71;
+    border: solid 3px  var(--xanadu);
     padding: 20px;
-    background: -webkit-linear-gradient( #A39171, #6D4C3D);
+    background: -webkit-linear-gradient( var(--grullo), var(--coffee));
     border-radius: 15px;
     text-align: center;
-    color:#DCC9B6;
+    color:var(--almond);
 
 }
 
