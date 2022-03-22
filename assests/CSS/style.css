@@ -74,7 +74,8 @@ body {
 
 .content {
     display:flex;
-    justify-content: space-between;    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 70%;
     padding: 25px;
     font-size: 25px;
@@ -86,6 +87,10 @@ body {
     height: 100%;
     width: 30%;
     padding: 15px;
+}
+
+.work {
+    margin-right: 50px;
 }
 
 #project-1,
@@ -101,7 +106,9 @@ body {
 
 }
 
-#project-1:hover {
+#project-1:hover,
+#project-2:hover,
+#project-3:hover {
     position:relative;
     top:-25px;
     left:-35px;
@@ -126,6 +133,10 @@ body {
     }
     #links {
         font-size: 15px;
+    }
+    #mypic {
+        position: relative;
+        
     }
   }
   
