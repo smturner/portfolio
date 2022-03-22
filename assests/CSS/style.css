@@ -87,6 +87,7 @@ body {
     height: 100%;
     width: 30%;
     padding: 15px;
+    display: flex;
 }
 
 .work {
@@ -116,6 +117,10 @@ body {
     height:auto;
     display:block;
     z-index:999;
+}
+
+.main a {
+    color:var(--coffee);
 }
 
 
