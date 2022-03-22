@@ -21,4 +21,4 @@ If you go to the contact me section it has my phone number and email and links t
 
 <a href="https://github.com/smturner/portfolio">GitHub Respository</a>
 
-<a href=">
+<a href="https://smturner.github.io/portfolio/">Deployed Application</a>
