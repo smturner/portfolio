@@ -91,13 +91,13 @@ body {
 .projectsContainer{
     display:flex;
     flex-direction: column;
-    /* justify-content: center; */
+    /* justify-content: center;  */
     /* align-items: center; */
     margin-bottom: 70px;
     /* height: 300px;
     width:100%; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 70%;
+    width: 80%;
     /* padding: 25px; */
 }
 
@@ -114,53 +114,29 @@ body {
 }
 
 #project-1{
-    background-image: url("file:///Users/sarahturner/Desktop/Screen%20Shot%202022-04-07%20at%206.30.11%20PM.png");
-    backdrop-filter: blur 3px;
+    background-image: url("../images/project1.png");
     border: solid 3px  var(--xanadu);
-    /* padding: 20px; */
-    /* background: -webkit-linear-gradient( var(--grullo), var(--coffee)); */
-   
-    /* border-radius: 15px; */
-    /* text-align: center; */
-    margin:15px;
-    /* color:var(--almond); */
+    margin-top:15px;
     width: 90%;
     height: 200px;
-
 }
-
 
 .minorProjects{
     display:inherit;
     width: 320px;
-    justify-content: center;
-}
-
-.homework1
-
-
-  
-  
-#project-1{
-    background-image: url("file:///Users/sarahturner/Desktop/Screen%20Shot%202022-04-07%20at%206.30.11%20PM.png");
-    backdrop-filter: blur 3px;
-    border: solid 3px  var(--xanadu);
+    /* justify-content: center; */
+    /* position:relative; */
+    
+    /* backdrop-filter: blur 3px;
+    border: solid 3px  var(--xanadu); */
     /* padding: 20px; */
     /* background: -webkit-linear-gradient( var(--grullo), var(--coffee)); */
    
     /* border-radius: 15px; */
     /* text-align: center; */
-    margin:15px;
+    /* margin:15px; */
     /* color:var(--almond); */
-    width: 90%;
-    height: 200px;
-
-}
-
-#password_generator,
-#work_day_scheduler {
-    /* display: inline-block; */
-    border: solid 3px  var(--xanadu);
+    /* border: solid 3px  var(--xanadu);
     padding: 20px;
     background: -webkit-linear-gradient( var(--grullo), var(--coffee));
     font-size: 20px;
@@ -168,6 +144,43 @@ body {
     text-align: center;
     color:var(--almond);
     width: 160px;
+    height: 100px; */
+
+}
+
+/* .homework1{
+    position: absolute;
+    background-image: url("file:///Users/sarahturner/Desktop/Screen%20Shot%202022-04-07%20at%206.30.11%20PM.png");
+} */
+
+
+
+  
+  
+
+
+#password_generator{
+    background-image: url("../images/Screen\ Shot\ 2022-04-07\ at\ 10.11.33\ PM.png");
+    /* display: inline-block; */
+    border: solid 3px  var(--xanadu);
+    /* padding: 20px; */
+    /* background: -webkit-linear-gradient( var(--grullo), var(--coffee)); */
+    font-size: 20px;
+    text-align: center;
+    color:var(--almond);
+    width: 45%;
+    height: 100px;
+}
+
+#work_day_scheduler {
+    /* display: inline-block; */
+    border: solid 3px  var(--xanadu);
+    /* padding: 20px; */
+    background: -webkit-linear-gradient( var(--grullo), var(--coffee));
+    font-size: 20px;
+    text-align: center;
+    color:var(--almond);
+    width: 45%;
     height: 100px;
       
 }
