@@ -10,6 +10,7 @@
     --almond: #DCC9B6;
     --xanadu: #727D71;
 }
+
 body {
     background-color: var(--almond);
 }
@@ -91,28 +92,17 @@ body {
 .projectsContainer{
     display:flex;
     flex-direction: column;
-    /* justify-content: center;  */
-    /* align-items: center; */
     margin-bottom: 70px;
-    /* height: 300px;
-    width:100%; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 80%;
-    /* padding: 25px; */
 }
 
-/* .mainProject{
-    position:relative; */
-
 .project1{
-    /* position:absolute;
-    bottom:30px; */
     background-color:var(--coffee);
     color:var(--almond);
     font-size:40px;
     margin-top:100px;
     padding-right:40px;
-   
     float: left;
 }
 
@@ -126,16 +116,11 @@ body {
 }
 
 .minorProjects{
-    /* display:inherit; */
     display:relative;
     width: 320px;
+}
     
-   
-    
-
-  .passwordGenerator{
-      /* display:absolute;
-      bottom:0px; */
+.passwordGenerator{
     background-color:var(--coffee);
     color:var(--almond);
     font-size:15px;
@@ -144,31 +129,21 @@ body {
     float: left;
   }
   
-
-
 #password_generator{
     background-image: url("../images/passwordproject.png");
     background-size:cover;
-    /* display: inline-block; */
     border: solid 3px  var(--xanadu);
-    /* padding: 20px; */
-    /* background: -webkit-linear-gradient( var(--grullo), var(--coffee)); */
-    /* font-size: 20px; */
-    /* text-align: center; */
-    /* color:var(--almond); */
     width: 45%;
     height: 100px;
 }
 
 .workDayScheduler {
     background-color:var(--coffee);
-    /* border: black solid 3px; */
     color:var(--almond);
     font-size:15px;
     margin-top:50px;
     padding: 5px;
     float: left;
-
 }
 
 #work_day_scheduler {
@@ -186,10 +161,8 @@ body {
     text-align: center;
     color:var(--almond);
     width: 45%;
-    height: 100px;
-      
+    height: 100px;  
 }
-
 
 .main a {
     color:var(--coffee);
