@@ -101,20 +101,24 @@ body {
     /* padding: 25px; */
 }
 
-.mainProject{
-    position:relative;
-}
+/* .mainProject{
+    position:relative; */
+
 .project1{
-    position:absolute;
-    bottom:30px;
+    /* position:absolute;
+    bottom:30px; */
     background-color:var(--coffee);
     color:var(--almond);
-    font-size:35px;
-    padding-right:30px;
+    font-size:40px;
+    margin-top:100px;
+    padding-right:40px;
+   
+    float: left;
 }
 
 #project-1{
     background-image: url("../images/project1.png");
+    background-size:cover;
     border: solid 3px  var(--xanadu);
     margin-top:15px;
     width: 90%;
@@ -122,60 +126,61 @@ body {
 }
 
 .minorProjects{
-    display:inherit;
+    /* display:inherit; */
+    display:relative;
     width: 320px;
-    /* justify-content: center; */
-    /* position:relative; */
     
-    /* backdrop-filter: blur 3px;
-    border: solid 3px  var(--xanadu); */
-    /* padding: 20px; */
-    /* background: -webkit-linear-gradient( var(--grullo), var(--coffee)); */
    
-    /* border-radius: 15px; */
-    /* text-align: center; */
-    /* margin:15px; */
-    /* color:var(--almond); */
-    /* border: solid 3px  var(--xanadu);
-    padding: 20px;
-    background: -webkit-linear-gradient( var(--grullo), var(--coffee));
-    font-size: 20px;
-    border-radius: 15px;
-    text-align: center;
+    
+
+  .passwordGenerator{
+      /* display:absolute;
+      bottom:0px; */
+    background-color:var(--coffee);
     color:var(--almond);
-    width: 160px;
-    height: 100px; */
-
-}
-
-/* .homework1{
-    position: absolute;
-    background-image: url("file:///Users/sarahturner/Desktop/Screen%20Shot%202022-04-07%20at%206.30.11%20PM.png");
-} */
-
-
-
-  
+    font-size:15px;
+    margin-top:50px;
+    padding:5px;
+    float: left;
+  }
   
 
 
 #password_generator{
-    background-image: url("../images/Screen\ Shot\ 2022-04-07\ at\ 10.11.33\ PM.png");
+    background-image: url("../images/passwordproject.png");
+    background-size:cover;
     /* display: inline-block; */
     border: solid 3px  var(--xanadu);
     /* padding: 20px; */
     /* background: -webkit-linear-gradient( var(--grullo), var(--coffee)); */
-    font-size: 20px;
-    text-align: center;
-    color:var(--almond);
+    /* font-size: 20px; */
+    /* text-align: center; */
+    /* color:var(--almond); */
     width: 45%;
     height: 100px;
 }
 
+.workDayScheduler {
+    background-color:var(--coffee);
+    /* border: black solid 3px; */
+    color:var(--almond);
+    font-size:15px;
+    margin-top:50px;
+    padding: 5px;
+    float: left;
+
+}
+
 #work_day_scheduler {
-    /* display: inline-block; */
+    background-image: url("../images/Screen\ Shot\ 2022-03-31\ at\ 10.03.55\ PM.png");
+    background-size:cover;
     border: solid 3px  var(--xanadu);
-    /* padding: 20px; */
+    width: 45%;
+    height: 100px;
+}
+
+#comingSoon{
+    border: solid 3px  var(--xanadu);
     background: -webkit-linear-gradient( var(--grullo), var(--coffee));
     font-size: 20px;
     text-align: center;
@@ -184,18 +189,6 @@ body {
     height: 100px;
       
 }
-
-/* #project-1:hover,
-#project-2:hover,
-#project-3:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
-} */
 
 
 .main a {
@@ -206,7 +199,7 @@ body {
     display:flex;
     justify-content: space-between;
 }
-/* 
+
  @media screen and (max-width: 992px) {
      .header h1 {
          font-size: 40px;
@@ -271,54 +264,6 @@ body {
         font-size: 20px;
     }
 
-  } */
+  }
 
 
-/*.main section {
-    display: flex;
-    flex-direction: row;
-    max-height: auto;
-    
-}
-
-section h1 {
-    display: flex;
-    float:left;
-    position:inherit;
-    margin-left: 200px;
-    margin-right: 50px;
-    padding-right: 20px;
-    color: #727D71;
-    border-right: 5px solid #727D71;
-}
-
-.main a{
-    color: #6D4C3D;
-    
-}
-
-.main li a{
-    color: #6D4C3D;
-    
-}
-
-.contact div ul li {
-    display: inline-block;
-
-
-}
-
-
-
-/*section {
-    column-count: 2;
-}
-
-.section {
-    display: inline-block;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin:auto;
-    padding: auto;
-    color: #727D71
-
-}*/
